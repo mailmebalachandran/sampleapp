@@ -1,0 +1,9 @@
+version: "1.0"
+services:
+  sampleapp:
+    build: ./sampleapp
+    container_name: sampleapp_c
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    tty: true
